@@ -1,0 +1,10 @@
+﻿  writeBin.c
+C:\Users\MrNik\source\repos\Arhivator\Arhivator\writeBin.c(10,50): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\MrNik\source\repos\Arhivator\Arhivator\writeBin.c(29,19): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\MrNik\source\repos\Arhivator\Arhivator\writeBin.c(48,23): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+  Generating code
+  2 of 22 functions ( 9.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Arhivator.vcxproj -> C:\Users\MrNik\source\repos\Arhivator\x64\Release\Arhivator.exe

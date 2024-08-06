@@ -1,0 +1,5 @@
+﻿  writeBin.c
+C:\Users\MrNik\source\repos\Arhivator\Arhivator\writeBin.c(10,50): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\MrNik\source\repos\Arhivator\Arhivator\writeBin.c(29,32): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\MrNik\source\repos\Arhivator\Arhivator\writeBin.c(48,23): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+  Arhivator.vcxproj -> C:\Users\MrNik\source\repos\Arhivator\x64\Debug\Arhivator.exe
