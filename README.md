@@ -1,5 +1,5 @@
 # Haffman-Archivator
-My first-first +- good project - Haffman Archivator. I did this project in my 1st year at NSU, so it 100% has some bugs, but at least I have it running and working correctly. Some things in the project are made too simple, like parsing encoded text, because I couldn't figure out a way to put a tree in the text. I had to put the whole table inside. But nevertheless, the text is encoded and decoded. 
+My first-first +- good project - Haffman Archivator. I did this project in my 1st year at NSU, so it 100% has some bugs, but at least I have it running and working correctly. Some things in the project are made too simple, like parsing encoded text, because I couldn't figure out a way to put a tree in the text. I had to put the whole table inside. But nevertheless, the text is encoded and decoded. Using C Programm language
 # What this do? 
 You can encode text and decode it as well. I don't recommend encoding and decoding everything in one file. 
 # Installation
