@@ -9,11 +9,11 @@ int main(int argc, char** argv)
     printf("Your choice? :D (type 1 or 2)\n");
     int32_t UserChoose;
     scanf("%d", &UserChoose);
-    // введите 2 пути (первый - текст, второй - заархивированный) и передать его в функцию, 1 - архивация
+    // РІРІРµРґРёС‚Рµ 2 РїСѓС‚Рё (РїРµСЂРІС‹Р№ - С‚РµРєСЃС‚, РІС‚РѕСЂРѕР№ - Р·Р°Р°СЂС…РёРІРёСЂРѕРІР°РЅРЅС‹Р№) Рё РїРµСЂРµРґР°С‚СЊ РµРіРѕ РІ С„СѓРЅРєС†РёСЋ, 1 - Р°СЂС…РёРІР°С†РёСЏ
     if (UserChoose == 1)
     {
         printf("Good Choice :0\n");
-        printf("Please write your path to File that need to be decoded\n");
+        printf("Please write your path to File that need to be encoded\n");
         const char filepath[100];
         scanf("%s", &filepath);
         printf("Please write your path to File where should be your decoded text\n");
@@ -27,21 +27,21 @@ int main(int argc, char** argv)
         printf("%s\n", filePathDecoded);
         
     }
-    // введите 2 пути (первый - откуда деархивировать) (второй - куда деархивировать) и передать его в функцию, 2 - деорхивация
+    // РІРІРµРґРёС‚Рµ 2 РїСѓС‚Рё (РїРµСЂРІС‹Р№ - РѕС‚РєСѓРґР° РґРµР°СЂС…РёРІРёСЂРѕРІР°С‚СЊ) (РІС‚РѕСЂРѕР№ - РєСѓРґР° РґРµР°СЂС…РёРІРёСЂРѕРІР°С‚СЊ) Рё РїРµСЂРµРґР°С‚СЊ РµРіРѕ РІ С„СѓРЅРєС†РёСЋ, 2 - РґРµРѕСЂС…РёРІР°С†РёСЏ
     else if (UserChoose == 2)
     {
         printf("Good Choice :0\n");
         printf("Please write your path to File where lies decodedFile\n");
         const char filepathDecoded[100];
         scanf("%s", &filepathDecoded);
-        printf("Please write your path to File where should be Your undecoded text\n");
+        printf("Please write your path to File where should be Your encoded text\n");
         const char filePath[100];
         scanf("%s", &filePath);
         decodeHuffman(filepathDecoded, filePath);
         printf("\n");
         printf("\n");
         printf("=========================================================\n");
-        printf("Your file is undecoded and stays here\n");
+        printf("Your file is encoded and stays here\n");
         printf("%s\n", filePath);
     }
     else
